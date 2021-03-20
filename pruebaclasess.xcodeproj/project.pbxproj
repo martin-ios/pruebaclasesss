@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041EB9B8259A990A0046D745 /* Zero  .wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9B7259A990A0046D745 /* Zero  .wav */; };
+		041EB9C3259A9CCF0046D745 /* Eins.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9C2259A9CCF0046D745 /* Eins.wav */; };
+		041EB9E1259AA4C30046D745 /* Six.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CA259AA4C20046D745 /* Six.wav */; };
+		041EB9E2259AA4C30046D745 /* Seven.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CB259AA4C20046D745 /* Seven.wav */; };
+		041EB9E3259AA4C30046D745 /* Four.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CC259AA4C20046D745 /* Four.wav */; };
+		041EB9E4259AA4C30046D745 /* Sixteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CD259AA4C20046D745 /* Sixteen.wav */; };
+		041EB9E5259AA4C30046D745 /* Ten.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CE259AA4C20046D745 /* Ten.wav */; };
+		041EB9E6259AA4C30046D745 /* Thirteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9CF259AA4C20046D745 /* Thirteen.wav */; };
+		041EB9E7259AA4C30046D745 /* Two.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D0259AA4C20046D745 /* Two.wav */; };
+		041EB9E8259AA4C30046D745 /* Five.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D1259AA4C20046D745 /* Five.wav */; };
+		041EB9EA259AA4C30046D745 /* Eleven.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D3259AA4C20046D745 /* Eleven.wav */; };
+		041EB9EB259AA4C30046D745 /* Seventeen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D4259AA4C20046D745 /* Seventeen.wav */; };
+		041EB9ED259AA4C30046D745 /* Twelve.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D6259AA4C20046D745 /* Twelve.wav */; };
+		041EB9EE259AA4C30046D745 /* One.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D7259AA4C20046D745 /* One.wav */; };
+		041EB9EF259AA4C30046D745 /* Nine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D8259AA4C20046D745 /* Nine.wav */; };
+		041EB9F0259AA4C30046D745 /* Fifteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9D9259AA4C20046D745 /* Fifteen.wav */; };
+		041EB9F1259AA4C30046D745 /* Three.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DA259AA4C20046D745 /* Three.wav */; };
+		041EB9F2259AA4C30046D745 /* Twenty.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DB259AA4C20046D745 /* Twenty.wav */; };
+		041EB9F3259AA4C30046D745 /* Zero .wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DC259AA4C20046D745 /* Zero .wav */; };
+		041EB9F4259AA4C30046D745 /* Fourteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DD259AA4C30046D745 /* Fourteen.wav */; };
+		041EB9F5259AA4C30046D745 /* Nineteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DE259AA4C30046D745 /* Nineteen.wav */; };
+		041EB9F6259AA4C30046D745 /* Eight.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9DF259AA4C30046D745 /* Eight.wav */; };
+		041EB9F7259AA4C30046D745 /* Eighteen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 041EB9E0259AA4C30046D745 /* Eighteen.wav */; };
+		0437A2052582EA700068469B /* ExtensionComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437A2042582EA700068469B /* ExtensionComparator.swift */; };
+		0441196D2551EF3E00A7CEE4 /* UnicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */; };
+		045EEAE2255B0EBD004E9268 /* extDesing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EEAE1255B0EBD004E9268 /* extDesing.swift */; };
+		046242E525B35D3D00D3FF43 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242E425B35D3D00D3FF43 /* Numbers.swift */; };
+		04625F9225530CEF0099490D /* Uno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F8E25530CEF0099490D /* Uno.wav */; };
+		04625F9325530CEF0099490D /* Due.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F8F25530CEF0099490D /* Due.wav */; };
+		04625F9425530CEF0099490D /* Zero.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F9025530CEF0099490D /* Zero.wav */; };
+		04625F9525530CEF0099490D /* Tre.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F9125530CEF0099490D /* Tre.wav */; };
+		0466FAEC25ED1864005C09FD /* ExtensionFirstFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466FAEB25ED1864005C09FD /* ExtensionFirstFilter.swift */; };
+		0468AFD525E425DA00945858 /* Diecinueve.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC025E425D900945858 /* Diecinueve.wav */; };
+		0468AFD625E425DA00945858 /* Cinco.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC125E425D900945858 /* Cinco.wav */; };
+		0468AFD725E425DA00945858 /* Once.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC225E425D900945858 /* Once.wav */; };
+		0468AFD825E425DA00945858 /* Diecisiete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC325E425D900945858 /* Diecisiete.wav */; };
+		0468AFD925E425DA00945858 /* Dieciocho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC425E425DA00945858 /* Dieciocho.wav */; };
+		0468AFDA25E425DA00945858 /* Doce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC525E425DA00945858 /* Doce.wav */; };
+		0468AFDB25E425DA00945858 /* Ocho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC625E425DA00945858 /* Ocho.wav */; };
+		0468AFDC25E425DA00945858 /* Tres.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC725E425DA00945858 /* Tres.wav */; };
+		0468AFDD25E425DA00945858 /* Veinte.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC825E425DA00945858 /* Veinte.wav */; };
+		0468AFDE25E425DA00945858 /* Catorce.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFC925E425DA00945858 /* Catorce.wav */; };
+		0468AFDF25E425DA00945858 /* Diez.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCA25E425DA00945858 /* Diez.wav */; };
+		0468AFE025E425DA00945858 /* Cuatro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCB25E425DA00945858 /* Cuatro.wav */; };
+		0468AFE125E425DA00945858 /* Seis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCC25E425DA00945858 /* Seis.wav */; };
+		0468AFE225E425DA00945858 /* Trece.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCD25E425DA00945858 /* Trece.wav */; };
+		0468AFE325E425DA00945858 /* Uno .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCE25E425DA00945858 /* Uno .wav */; };
+		0468AFE425E425DA00945858 /* Quince.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFCF25E425DA00945858 /* Quince.wav */; };
+		0468AFE525E425DA00945858 /* Cero.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFD025E425DA00945858 /* Cero.wav */; };
+		0468AFE625E425DA00945858 /* Siete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFD125E425DA00945858 /* Siete.wav */; };
+		0468AFE725E425DA00945858 /* Dieciseis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFD225E425DA00945858 /* Dieciseis.wav */; };
+		0468AFE825E425DA00945858 /* Dos.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFD325E425DA00945858 /* Dos.wav */; };
+		0468AFE925E425DA00945858 /* Nueve.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0468AFD425E425DA00945858 /* Nueve.wav */; };
+		0469C207259A707500F27DD4 /* Sept.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F3259A707500F27DD4 /* Sept.wav */; };
+		0469C208259A707500F27DD4 /* Trois.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F4259A707500F27DD4 /* Trois.wav */; };
+		0469C209259A707500F27DD4 /* Dix-Sept.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F5259A707500F27DD4 /* Dix-Sept.wav */; };
+		0469C20A259A707500F27DD4 /* Quinze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F6259A707500F27DD4 /* Quinze.wav */; };
+		0469C20B259A707500F27DD4 /* Neuf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F7259A707500F27DD4 /* Neuf.wav */; };
+		0469C20C259A707500F27DD4 /* Dix-Huit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F8259A707500F27DD4 /* Dix-Huit.wav */; };
+		0469C20D259A707500F27DD4 /* Six .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1F9259A707500F27DD4 /* Six .wav */; };
+		0469C20E259A707500F27DD4 /* Cinq.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FA259A707500F27DD4 /* Cinq.wav */; };
+		0469C20F259A707500F27DD4 /* Quatorze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FB259A707500F27DD4 /* Quatorze.wav */; };
+		0469C210259A707500F27DD4 /* Dix.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FC259A707500F27DD4 /* Dix.wav */; };
+		0469C211259A707500F27DD4 /* Dix-Neuf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FD259A707500F27DD4 /* Dix-Neuf.wav */; };
+		0469C212259A707500F27DD4 /* Deux.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FE259A707500F27DD4 /* Deux.wav */; };
+		0469C213259A707500F27DD4 /* Quatre.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C1FF259A707500F27DD4 /* Quatre.wav */; };
+		0469C214259A707500F27DD4 /* Vingt.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C200259A707500F27DD4 /* Vingt.wav */; };
+		0469C215259A707500F27DD4 /* Zéro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C201259A707500F27DD4 /* Zéro.wav */; };
+		0469C216259A707500F27DD4 /* Treize.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C202259A707500F27DD4 /* Treize.wav */; };
+		0469C217259A707500F27DD4 /* Huit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C203259A707500F27DD4 /* Huit.wav */; };
+		0469C218259A707500F27DD4 /* Un.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C204259A707500F27DD4 /* Un.wav */; };
+		0469C219259A707500F27DD4 /* Douze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C205259A707500F27DD4 /* Douze.wav */; };
+		0469C21A259A707500F27DD4 /* Seize.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C206259A707500F27DD4 /* Seize.wav */; };
+		0469C23F259A70AE00F27DD4 /* Vinte.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22A259A70AE00F27DD4 /* Vinte.wav */; };
+		0469C240259A70AE00F27DD4 /* Dezesseis.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22B259A70AE00F27DD4 /* Dezesseis.wav */; };
+		0469C241259A70AE00F27DD4 /* Doze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22C259A70AE00F27DD4 /* Doze.wav */; };
+		0469C242259A70AE00F27DD4 /* Cinco .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22D259A70AE00F27DD4 /* Cinco .wav */; };
+		0469C243259A70AE00F27DD4 /* Quatro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22E259A70AE00F27DD4 /* Quatro.wav */; };
+		0469C244259A70AE00F27DD4 /* Dois.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C22F259A70AE00F27DD4 /* Dois.wav */; };
+		0469C245259A70AE00F27DD4 /* Oito.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C230259A70AE00F27DD4 /* Oito.wav */; };
+		0469C246259A70AE00F27DD4 /* Dezoito.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C231259A70AE00F27DD4 /* Dezoito.wav */; };
+		0469C247259A70AE00F27DD4 /* Treze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C232259A70AE00F27DD4 /* Treze.wav */; };
+		0469C248259A70AE00F27DD4 /* Nove .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C233259A70AE00F27DD4 /* Nove .wav */; };
+		0469C249259A70AE00F27DD4 /* Dezessete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C234259A70AE00F27DD4 /* Dezessete.wav */; };
+		0469C24A259A70AE00F27DD4 /* Quinze .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C235259A70AE00F27DD4 /* Quinze .wav */; };
+		0469C24B259A70AE00F27DD4 /* Quatorze .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C236259A70AE00F27DD4 /* Quatorze .wav */; };
+		0469C24C259A70AE00F27DD4 /* Sete.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C237259A70AE00F27DD4 /* Sete.wav */; };
+		0469C24D259A70AE00F27DD4 /* Um.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C238259A70AE00F27DD4 /* Um.wav */; };
+		0469C24E259A70AE00F27DD4 /* Três.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C239259A70AE00F27DD4 /* Três.wav */; };
+		0469C24F259A70AE00F27DD4 /* Seis .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C23A259A70AE00F27DD4 /* Seis .wav */; };
+		0469C250259A70AE00F27DD4 /* Dezenove.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C23B259A70AE00F27DD4 /* Dezenove.wav */; };
+		0469C251259A70AE00F27DD4 /* CeroPortuOK.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C23C259A70AE00F27DD4 /* CeroPortuOK.wav */; };
+		0469C252259A70AE00F27DD4 /* Dez.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C23D259A70AE00F27DD4 /* Dez.wav */; };
+		0469C253259A70AE00F27DD4 /* Onze .wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C23E259A70AE00F27DD4 /* Onze .wav */; };
+		0469C27B259A8D3A00F27DD4 /* Achtzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C266259A8D3900F27DD4 /* Achtzehn.wav */; };
+		0469C27C259A8D3A00F27DD4 /* Vierzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C267259A8D3900F27DD4 /* Vierzehn.wav */; };
+		0469C27D259A8D3A00F27DD4 /* Sechs.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C268259A8D3900F27DD4 /* Sechs.wav */; };
+		0469C27E259A8D3A00F27DD4 /* Sieben.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C269259A8D3900F27DD4 /* Sieben.wav */; };
+		0469C27F259A8D3A00F27DD4 /* Null.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C26A259A8D3900F27DD4 /* Null.wav */; };
+		0469C280259A8D3A00F27DD4 /* Siebzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C26B259A8D3900F27DD4 /* Siebzehn.wav */; };
+		0469C282259A8D3A00F27DD4 /* Sechzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C26D259A8D3900F27DD4 /* Sechzehn.wav */; };
+		0469C283259A8D3A00F27DD4 /* Neunzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C26E259A8D3900F27DD4 /* Neunzehn.wav */; };
+		0469C284259A8D3A00F27DD4 /* Zehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C26F259A8D3900F27DD4 /* Zehn.wav */; };
+		0469C285259A8D3A00F27DD4 /* Dreizhen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C270259A8D3900F27DD4 /* Dreizhen.wav */; };
+		0469C286259A8D3A00F27DD4 /* Elf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C271259A8D3900F27DD4 /* Elf.wav */; };
+		0469C287259A8D3A00F27DD4 /* Drei.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C272259A8D3900F27DD4 /* Drei.wav */; };
+		0469C288259A8D3A00F27DD4 /* Fünf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C273259A8D3900F27DD4 /* Fünf.wav */; };
+		0469C289259A8D3A00F27DD4 /* Vier.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C274259A8D3900F27DD4 /* Vier.wav */; };
+		0469C28A259A8D3A00F27DD4 /* Zwanzig.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C275259A8D3900F27DD4 /* Zwanzig.wav */; };
+		0469C28B259A8D3A00F27DD4 /* Acht.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C276259A8D3900F27DD4 /* Acht.wav */; };
+		0469C28C259A8D3A00F27DD4 /* Fünfzehn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C277259A8D3900F27DD4 /* Fünfzehn.wav */; };
+		0469C28D259A8D3A00F27DD4 /* Zwei.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C278259A8D3900F27DD4 /* Zwei.wav */; };
+		0469C28E259A8D3A00F27DD4 /* Neun.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C279259A8D3900F27DD4 /* Neun.wav */; };
+		0469C28F259A8D3A00F27DD4 /* Zwölf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C27A259A8D3900F27DD4 /* Zwölf.wav */; };
+		046D369725EEE505005F0DFE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D369625EEE505005F0DFE /* Animation.swift */; };
+		048A81BC2597999C001D68AB /* ExtensionFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81BB2597999C001D68AB /* ExtensionFunction.swift */; };
+		048A81C42597AA0E001D68AB /* Timers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81C32597AA0E001D68AB /* Timers.swift */; };
+		048A81D22597B878001D68AB /* BtnPressHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81D12597B878001D68AB /* BtnPressHold.swift */; };
+		04A54AFC255312C100CBF29D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A54AFB255312C100CBF29D /* AVFoundation.framework */; };
+		04B32A29256310C200E6E72B /* extensionAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32A28256310C200E6E72B /* extensionAudio.swift */; };
+		04BF284E25977B700061286E /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF284C25977B700061286E /* correctSound.mp3 */; };
+		04BF284F25977B700061286E /* incorrecSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF284D25977B700061286E /* incorrecSound.mp3 */; };
+		04C4187B2591354900B4B2A1 /* expandedCalifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4187A2591354900B4B2A1 /* expandedCalifi.swift */; };
+		04C41885259138E800B4B2A1 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */; };
+		04D5670B25477C99000F9588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670A25477C99000F9588 /* AppDelegate.swift */; };
+		04D5670D25477C99000F9588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670C25477C99000F9588 /* SceneDelegate.swift */; };
+		04D5670F25477C99000F9588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670E25477C99000F9588 /* ViewController.swift */; };
+		04D5671225477C99000F9588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5671025477C99000F9588 /* Main.storyboard */; };
+		04D5671425477C9D000F9588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D5671325477C9D000F9588 /* Assets.xcassets */; };
+		04D5671725477C9D000F9588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5671525477C9D000F9588 /* LaunchScreen.storyboard */; };
+		04D5672225477C9D000F9588 /* pruebaclasessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5672125477C9D000F9588 /* pruebaclasessTests.swift */; };
+		04D5672D25477C9D000F9588 /* pruebaclasessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5672C25477C9D000F9588 /* pruebaclasessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D5671E25477C9D000F9588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D566FF25477C99000F9588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5670625477C99000F9588;
+			remoteInfo = pruebaclasess;
+		};
+		04D5672925477C9D000F9588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D566FF25477C99000F9588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5670625477C99000F9588;
+			remoteInfo = pruebaclasess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041EB9B7259A990A0046D745 /* Zero  .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Zero  .wav"; path = "../../../../../../Documents/Numeros Portuguez/Zero  .wav"; sourceTree = "<group>"; };
+		041EB9C2259A9CCF0046D745 /* Eins.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Eins.wav; path = "../../../../../../Documents/Numeros Aleman/Eins.wav"; sourceTree = "<group>"; };
+		041EB9CA259AA4C20046D745 /* Six.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Six.wav; path = "../../../../../../Documents/Numeros Inlges/Six.wav"; sourceTree = "<group>"; };
+		041EB9CB259AA4C20046D745 /* Seven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Seven.wav; path = "../../../../../../Documents/Numeros Inlges/Seven.wav"; sourceTree = "<group>"; };
+		041EB9CC259AA4C20046D745 /* Four.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Four.wav; path = "../../../../../../Documents/Numeros Inlges/Four.wav"; sourceTree = "<group>"; };
+		041EB9CD259AA4C20046D745 /* Sixteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sixteen.wav; path = "../../../../../../Documents/Numeros Inlges/Sixteen.wav"; sourceTree = "<group>"; };
+		041EB9CE259AA4C20046D745 /* Ten.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Ten.wav; path = "../../../../../../Documents/Numeros Inlges/Ten.wav"; sourceTree = "<group>"; };
+		041EB9CF259AA4C20046D745 /* Thirteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Thirteen.wav; path = "../../../../../../Documents/Numeros Inlges/Thirteen.wav"; sourceTree = "<group>"; };
+		041EB9D0259AA4C20046D745 /* Two.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Two.wav; path = "../../../../../../Documents/Numeros Inlges/Two.wav"; sourceTree = "<group>"; };
+		041EB9D1259AA4C20046D745 /* Five.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Five.wav; path = "../../../../../../Documents/Numeros Inlges/Five.wav"; sourceTree = "<group>"; };
+		041EB9D3259AA4C20046D745 /* Eleven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Eleven.wav; path = "../../../../../../Documents/Numeros Inlges/Eleven.wav"; sourceTree = "<group>"; };
+		041EB9D4259AA4C20046D745 /* Seventeen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Seventeen.wav; path = "../../../../../../Documents/Numeros Inlges/Seventeen.wav"; sourceTree = "<group>"; };
+		041EB9D6259AA4C20046D745 /* Twelve.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Twelve.wav; path = "../../../../../../Documents/Numeros Inlges/Twelve.wav"; sourceTree = "<group>"; };
+		041EB9D7259AA4C20046D745 /* One.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = One.wav; path = "../../../../../../Documents/Numeros Inlges/One.wav"; sourceTree = "<group>"; };
+		041EB9D8259AA4C20046D745 /* Nine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Nine.wav; path = "../../../../../../Documents/Numeros Inlges/Nine.wav"; sourceTree = "<group>"; };
+		041EB9D9259AA4C20046D745 /* Fifteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Fifteen.wav; path = "../../../../../../Documents/Numeros Inlges/Fifteen.wav"; sourceTree = "<group>"; };
+		041EB9DA259AA4C20046D745 /* Three.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Three.wav; path = "../../../../../../Documents/Numeros Inlges/Three.wav"; sourceTree = "<group>"; };
+		041EB9DB259AA4C20046D745 /* Twenty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Twenty.wav; path = "../../../../../../Documents/Numeros Inlges/Twenty.wav"; sourceTree = "<group>"; };
+		041EB9DC259AA4C20046D745 /* Zero .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Zero .wav"; path = "../../../../../../Documents/Numeros Inlges/Zero .wav"; sourceTree = "<group>"; };
+		041EB9DD259AA4C30046D745 /* Fourteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Fourteen.wav; path = "../../../../../../Documents/Numeros Inlges/Fourteen.wav"; sourceTree = "<group>"; };
+		041EB9DE259AA4C30046D745 /* Nineteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Nineteen.wav; path = "../../../../../../Documents/Numeros Inlges/Nineteen.wav"; sourceTree = "<group>"; };
+		041EB9DF259AA4C30046D745 /* Eight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Eight.wav; path = "../../../../../../Documents/Numeros Inlges/Eight.wav"; sourceTree = "<group>"; };
+		041EB9E0259AA4C30046D745 /* Eighteen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Eighteen.wav; path = "../../../../../../Documents/Numeros Inlges/Eighteen.wav"; sourceTree = "<group>"; };
+		0437A2042582EA700068469B /* ExtensionComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionComparator.swift; sourceTree = "<group>"; };
+		0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicaViewController.swift; sourceTree = "<group>"; };
+		045EEAE1255B0EBD004E9268 /* extDesing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extDesing.swift; sourceTree = "<group>"; };
+		046242E425B35D3D00D3FF43 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		04625F8E25530CEF0099490D /* Uno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uno.wav; sourceTree = "<group>"; };
+		04625F8F25530CEF0099490D /* Due.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Due.wav; sourceTree = "<group>"; };
+		04625F9025530CEF0099490D /* Zero.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zero.wav; sourceTree = "<group>"; };
+		04625F9125530CEF0099490D /* Tre.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Tre.wav; sourceTree = "<group>"; };
+		0466FAEB25ED1864005C09FD /* ExtensionFirstFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFirstFilter.swift; sourceTree = "<group>"; };
+		0468AFC025E425D900945858 /* Diecinueve.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Diecinueve.wav; path = "../../../../../../Documents/Numeros Español/Diecinueve.wav"; sourceTree = "<group>"; };
+		0468AFC125E425D900945858 /* Cinco.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cinco.wav; path = "../../../../../../Documents/Numeros Español/Cinco.wav"; sourceTree = "<group>"; };
+		0468AFC225E425D900945858 /* Once.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Once.wav; path = "../../../../../../Documents/Numeros Español/Once.wav"; sourceTree = "<group>"; };
+		0468AFC325E425D900945858 /* Diecisiete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Diecisiete.wav; path = "../../../../../../Documents/Numeros Español/Diecisiete.wav"; sourceTree = "<group>"; };
+		0468AFC425E425DA00945858 /* Dieciocho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dieciocho.wav; path = "../../../../../../Documents/Numeros Español/Dieciocho.wav"; sourceTree = "<group>"; };
+		0468AFC525E425DA00945858 /* Doce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Doce.wav; path = "../../../../../../Documents/Numeros Español/Doce.wav"; sourceTree = "<group>"; };
+		0468AFC625E425DA00945858 /* Ocho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Ocho.wav; path = "../../../../../../Documents/Numeros Español/Ocho.wav"; sourceTree = "<group>"; };
+		0468AFC725E425DA00945858 /* Tres.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Tres.wav; path = "../../../../../../Documents/Numeros Español/Tres.wav"; sourceTree = "<group>"; };
+		0468AFC825E425DA00945858 /* Veinte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Veinte.wav; path = "../../../../../../Documents/Numeros Español/Veinte.wav"; sourceTree = "<group>"; };
+		0468AFC925E425DA00945858 /* Catorce.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Catorce.wav; path = "../../../../../../Documents/Numeros Español/Catorce.wav"; sourceTree = "<group>"; };
+		0468AFCA25E425DA00945858 /* Diez.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Diez.wav; path = "../../../../../../Documents/Numeros Español/Diez.wav"; sourceTree = "<group>"; };
+		0468AFCB25E425DA00945858 /* Cuatro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cuatro.wav; path = "../../../../../../Documents/Numeros Español/Cuatro.wav"; sourceTree = "<group>"; };
+		0468AFCC25E425DA00945858 /* Seis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Seis.wav; path = "../../../../../../Documents/Numeros Español/Seis.wav"; sourceTree = "<group>"; };
+		0468AFCD25E425DA00945858 /* Trece.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Trece.wav; path = "../../../../../../Documents/Numeros Español/Trece.wav"; sourceTree = "<group>"; };
+		0468AFCE25E425DA00945858 /* Uno .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Uno .wav"; path = "../../../../../../Documents/Numeros Español/Uno .wav"; sourceTree = "<group>"; };
+		0468AFCF25E425DA00945858 /* Quince.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Quince.wav; path = "../../../../../../Documents/Numeros Español/Quince.wav"; sourceTree = "<group>"; };
+		0468AFD025E425DA00945858 /* Cero.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cero.wav; path = "../../../../../../Documents/Numeros Español/Cero.wav"; sourceTree = "<group>"; };
+		0468AFD125E425DA00945858 /* Siete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Siete.wav; path = "../../../../../../Documents/Numeros Español/Siete.wav"; sourceTree = "<group>"; };
+		0468AFD225E425DA00945858 /* Dieciseis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dieciseis.wav; path = "../../../../../../Documents/Numeros Español/Dieciseis.wav"; sourceTree = "<group>"; };
+		0468AFD325E425DA00945858 /* Dos.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dos.wav; path = "../../../../../../Documents/Numeros Español/Dos.wav"; sourceTree = "<group>"; };
+		0468AFD425E425DA00945858 /* Nueve.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Nueve.wav; path = "../../../../../../Documents/Numeros Español/Nueve.wav"; sourceTree = "<group>"; };
+		0469C1F3259A707500F27DD4 /* Sept.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sept.wav; path = "../../../../../../Documents/Numeros Frances/Sept.wav"; sourceTree = "<group>"; };
+		0469C1F4259A707500F27DD4 /* Trois.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Trois.wav; path = "../../../../../../Documents/Numeros Frances/Trois.wav"; sourceTree = "<group>"; };
+		0469C1F5259A707500F27DD4 /* Dix-Sept.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Dix-Sept.wav"; path = "../../../../../../Documents/Numeros Frances/Dix-Sept.wav"; sourceTree = "<group>"; };
+		0469C1F6259A707500F27DD4 /* Quinze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Quinze.wav; path = "../../../../../../Documents/Numeros Frances/Quinze.wav"; sourceTree = "<group>"; };
+		0469C1F7259A707500F27DD4 /* Neuf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Neuf.wav; path = "../../../../../../Documents/Numeros Frances/Neuf.wav"; sourceTree = "<group>"; };
+		0469C1F8259A707500F27DD4 /* Dix-Huit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Dix-Huit.wav"; path = "../../../../../../Documents/Numeros Frances/Dix-Huit.wav"; sourceTree = "<group>"; };
+		0469C1F9259A707500F27DD4 /* Six .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Six .wav"; path = "../../../../../../Documents/Numeros Frances/Six .wav"; sourceTree = "<group>"; };
+		0469C1FA259A707500F27DD4 /* Cinq.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cinq.wav; path = "../../../../../../Documents/Numeros Frances/Cinq.wav"; sourceTree = "<group>"; };
+		0469C1FB259A707500F27DD4 /* Quatorze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Quatorze.wav; path = "../../../../../../Documents/Numeros Frances/Quatorze.wav"; sourceTree = "<group>"; };
+		0469C1FC259A707500F27DD4 /* Dix.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dix.wav; path = "../../../../../../Documents/Numeros Frances/Dix.wav"; sourceTree = "<group>"; };
+		0469C1FD259A707500F27DD4 /* Dix-Neuf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Dix-Neuf.wav"; path = "../../../../../../Documents/Numeros Frances/Dix-Neuf.wav"; sourceTree = "<group>"; };
+		0469C1FE259A707500F27DD4 /* Deux.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Deux.wav; path = "../../../../../../Documents/Numeros Frances/Deux.wav"; sourceTree = "<group>"; };
+		0469C1FF259A707500F27DD4 /* Quatre.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Quatre.wav; path = "../../../../../../Documents/Numeros Frances/Quatre.wav"; sourceTree = "<group>"; };
+		0469C200259A707500F27DD4 /* Vingt.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Vingt.wav; path = "../../../../../../Documents/Numeros Frances/Vingt.wav"; sourceTree = "<group>"; };
+		0469C201259A707500F27DD4 /* Zéro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Zéro.wav"; path = "../../../../../../Documents/Numeros Frances/Zéro.wav"; sourceTree = "<group>"; };
+		0469C202259A707500F27DD4 /* Treize.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Treize.wav; path = "../../../../../../Documents/Numeros Frances/Treize.wav"; sourceTree = "<group>"; };
+		0469C203259A707500F27DD4 /* Huit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Huit.wav; path = "../../../../../../Documents/Numeros Frances/Huit.wav"; sourceTree = "<group>"; };
+		0469C204259A707500F27DD4 /* Un.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Un.wav; path = "../../../../../../Documents/Numeros Frances/Un.wav"; sourceTree = "<group>"; };
+		0469C205259A707500F27DD4 /* Douze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Douze.wav; path = "../../../../../../Documents/Numeros Frances/Douze.wav"; sourceTree = "<group>"; };
+		0469C206259A707500F27DD4 /* Seize.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Seize.wav; path = "../../../../../../Documents/Numeros Frances/Seize.wav"; sourceTree = "<group>"; };
+		0469C22A259A70AE00F27DD4 /* Vinte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Vinte.wav; path = "../../../../../../Documents/Numeros Portuguez/Vinte.wav"; sourceTree = "<group>"; };
+		0469C22B259A70AE00F27DD4 /* Dezesseis.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dezesseis.wav; path = "../../../../../../Documents/Numeros Portuguez/Dezesseis.wav"; sourceTree = "<group>"; };
+		0469C22C259A70AE00F27DD4 /* Doze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Doze.wav; path = "../../../../../../Documents/Numeros Portuguez/Doze.wav"; sourceTree = "<group>"; };
+		0469C22D259A70AE00F27DD4 /* Cinco .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Cinco .wav"; path = "../../../../../../Documents/Numeros Portuguez/Cinco .wav"; sourceTree = "<group>"; };
+		0469C22E259A70AE00F27DD4 /* Quatro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Quatro.wav; path = "../../../../../../Documents/Numeros Portuguez/Quatro.wav"; sourceTree = "<group>"; };
+		0469C22F259A70AE00F27DD4 /* Dois.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dois.wav; path = "../../../../../../Documents/Numeros Portuguez/Dois.wav"; sourceTree = "<group>"; };
+		0469C230259A70AE00F27DD4 /* Oito.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Oito.wav; path = "../../../../../../Documents/Numeros Portuguez/Oito.wav"; sourceTree = "<group>"; };
+		0469C231259A70AE00F27DD4 /* Dezoito.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dezoito.wav; path = "../../../../../../Documents/Numeros Portuguez/Dezoito.wav"; sourceTree = "<group>"; };
+		0469C232259A70AE00F27DD4 /* Treze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Treze.wav; path = "../../../../../../Documents/Numeros Portuguez/Treze.wav"; sourceTree = "<group>"; };
+		0469C233259A70AE00F27DD4 /* Nove .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Nove .wav"; path = "../../../../../../Documents/Numeros Portuguez/Nove .wav"; sourceTree = "<group>"; };
+		0469C234259A70AE00F27DD4 /* Dezessete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dezessete.wav; path = "../../../../../../Documents/Numeros Portuguez/Dezessete.wav"; sourceTree = "<group>"; };
+		0469C235259A70AE00F27DD4 /* Quinze .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Quinze .wav"; path = "../../../../../../Documents/Numeros Portuguez/Quinze .wav"; sourceTree = "<group>"; };
+		0469C236259A70AE00F27DD4 /* Quatorze .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Quatorze .wav"; path = "../../../../../../Documents/Numeros Portuguez/Quatorze .wav"; sourceTree = "<group>"; };
+		0469C237259A70AE00F27DD4 /* Sete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sete.wav; path = "../../../../../../Documents/Numeros Portuguez/Sete.wav"; sourceTree = "<group>"; };
+		0469C238259A70AE00F27DD4 /* Um.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Um.wav; path = "../../../../../../Documents/Numeros Portuguez/Um.wav"; sourceTree = "<group>"; };
+		0469C239259A70AE00F27DD4 /* Três.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Três.wav"; path = "../../../../../../Documents/Numeros Portuguez/Três.wav"; sourceTree = "<group>"; };
+		0469C23A259A70AE00F27DD4 /* Seis .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Seis .wav"; path = "../../../../../../Documents/Numeros Portuguez/Seis .wav"; sourceTree = "<group>"; };
+		0469C23B259A70AE00F27DD4 /* Dezenove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dezenove.wav; path = "../../../../../../Documents/Numeros Portuguez/Dezenove.wav"; sourceTree = "<group>"; };
+		0469C23C259A70AE00F27DD4 /* CeroPortuOK.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CeroPortuOK.wav; path = "../../../../../../Documents/Numeros Portuguez/CeroPortuOK.wav"; sourceTree = "<group>"; };
+		0469C23D259A70AE00F27DD4 /* Dez.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dez.wav; path = "../../../../../../Documents/Numeros Portuguez/Dez.wav"; sourceTree = "<group>"; };
+		0469C23E259A70AE00F27DD4 /* Onze .wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Onze .wav"; path = "../../../../../../Documents/Numeros Portuguez/Onze .wav"; sourceTree = "<group>"; };
+		0469C266259A8D3900F27DD4 /* Achtzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Achtzehn.wav; path = "../../../../../../Documents/Numeros Aleman/Achtzehn.wav"; sourceTree = "<group>"; };
+		0469C267259A8D3900F27DD4 /* Vierzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Vierzehn.wav; path = "../../../../../../Documents/Numeros Aleman/Vierzehn.wav"; sourceTree = "<group>"; };
+		0469C268259A8D3900F27DD4 /* Sechs.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sechs.wav; path = "../../../../../../Documents/Numeros Aleman/Sechs.wav"; sourceTree = "<group>"; };
+		0469C269259A8D3900F27DD4 /* Sieben.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sieben.wav; path = "../../../../../../Documents/Numeros Aleman/Sieben.wav"; sourceTree = "<group>"; };
+		0469C26A259A8D3900F27DD4 /* Null.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Null.wav; path = "../../../../../../Documents/Numeros Aleman/Null.wav"; sourceTree = "<group>"; };
+		0469C26B259A8D3900F27DD4 /* Siebzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Siebzehn.wav; path = "../../../../../../Documents/Numeros Aleman/Siebzehn.wav"; sourceTree = "<group>"; };
+		0469C26D259A8D3900F27DD4 /* Sechzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Sechzehn.wav; path = "../../../../../../Documents/Numeros Aleman/Sechzehn.wav"; sourceTree = "<group>"; };
+		0469C26E259A8D3900F27DD4 /* Neunzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Neunzehn.wav; path = "../../../../../../Documents/Numeros Aleman/Neunzehn.wav"; sourceTree = "<group>"; };
+		0469C26F259A8D3900F27DD4 /* Zehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Zehn.wav; path = "../../../../../../Documents/Numeros Aleman/Zehn.wav"; sourceTree = "<group>"; };
+		0469C270259A8D3900F27DD4 /* Dreizhen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Dreizhen.wav; path = "../../../../../../Documents/Numeros Aleman/Dreizhen.wav"; sourceTree = "<group>"; };
+		0469C271259A8D3900F27DD4 /* Elf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Elf.wav; path = "../../../../../../Documents/Numeros Aleman/Elf.wav"; sourceTree = "<group>"; };
+		0469C272259A8D3900F27DD4 /* Drei.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Drei.wav; path = "../../../../../../Documents/Numeros Aleman/Drei.wav"; sourceTree = "<group>"; };
+		0469C273259A8D3900F27DD4 /* Fünf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Fünf.wav"; path = "../../../../../../Documents/Numeros Aleman/Fünf.wav"; sourceTree = "<group>"; };
+		0469C274259A8D3900F27DD4 /* Vier.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Vier.wav; path = "../../../../../../Documents/Numeros Aleman/Vier.wav"; sourceTree = "<group>"; };
+		0469C275259A8D3900F27DD4 /* Zwanzig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Zwanzig.wav; path = "../../../../../../Documents/Numeros Aleman/Zwanzig.wav"; sourceTree = "<group>"; };
+		0469C276259A8D3900F27DD4 /* Acht.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Acht.wav; path = "../../../../../../Documents/Numeros Aleman/Acht.wav"; sourceTree = "<group>"; };
+		0469C277259A8D3900F27DD4 /* Fünfzehn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Fünfzehn.wav"; path = "../../../../../../Documents/Numeros Aleman/Fünfzehn.wav"; sourceTree = "<group>"; };
+		0469C278259A8D3900F27DD4 /* Zwei.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Zwei.wav; path = "../../../../../../Documents/Numeros Aleman/Zwei.wav"; sourceTree = "<group>"; };
+		0469C279259A8D3900F27DD4 /* Neun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Neun.wav; path = "../../../../../../Documents/Numeros Aleman/Neun.wav"; sourceTree = "<group>"; };
+		0469C27A259A8D3900F27DD4 /* Zwölf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Zwölf.wav"; path = "../../../../../../Documents/Numeros Aleman/Zwölf.wav"; sourceTree = "<group>"; };
+		046D369625EEE505005F0DFE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		048A81BB2597999C001D68AB /* ExtensionFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFunction.swift; sourceTree = "<group>"; };
+		048A81C32597AA0E001D68AB /* Timers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timers.swift; sourceTree = "<group>"; };
+		048A81D12597B878001D68AB /* BtnPressHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnPressHold.swift; sourceTree = "<group>"; };
+		04A54AFB255312C100CBF29D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04B32A28256310C200E6E72B /* extensionAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionAudio.swift; sourceTree = "<group>"; };
+		04BF284C25977B700061286E /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correctSound.mp3; path = "../../Speech Recognization/Sounds/correctSound.mp3"; sourceTree = "<group>"; };
+		04BF284D25977B700061286E /* incorrecSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = incorrecSound.mp3; path = "../../Speech Recognization/Sounds/incorrecSound.mp3"; sourceTree = "<group>"; };
+		04C4187A2591354900B4B2A1 /* expandedCalifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandedCalifi.swift; sourceTree = "<group>"; };
+		04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		04D5670725477C99000F9588 /* pruebaclasess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaclasess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5670A25477C99000F9588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D5670C25477C99000F9588 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04D5670E25477C99000F9588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D5671125477C99000F9588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D5671325477C9D000F9588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D5671625477C9D000F9588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D5671825477C9D000F9588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5671D25477C9D000F9588 /* pruebaclasessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaclasessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5672125477C9D000F9588 /* pruebaclasessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaclasessTests.swift; sourceTree = "<group>"; };
+		04D5672325477C9D000F9588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5672825477C9D000F9588 /* pruebaclasessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebaclasessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5672C25477C9D000F9588 /* pruebaclasessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebaclasessUITests.swift; sourceTree = "<group>"; };
+		04D5672E25477C9D000F9588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D5670425477C99000F9588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A54AFC255312C100CBF29D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5671A25477C9D000F9588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5672525477C9D000F9588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045105A42580D40500355193 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0469C1C3259A6EFA00F27DD4 /* Audios Portugues */,
+				0469C1C2259A6EE400F27DD4 /* Audios Aleman */,
+				0469C1C1259A6ECB00F27DD4 /* Audios Español */,
+				04B32A28256310C200E6E72B /* extensionAudio.swift */,
+				04625F8C25530CA10099490D /* Audios Italiano */,
+				04625F8D25530CB80099490D /* Audios Frances  */,
+				045DF76925545CC900D57752 /* Audios Ingles */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		045DF76925545CC900D57752 /* Audios Ingles */ = {
+			isa = PBXGroup;
+			children = (
+				041EB9DD259AA4C30046D745 /* Fourteen.wav */,
+				041EB9D1259AA4C20046D745 /* Five.wav */,
+				041EB9DE259AA4C30046D745 /* Nineteen.wav */,
+				041EB9E0259AA4C30046D745 /* Eighteen.wav */,
+				041EB9CD259AA4C20046D745 /* Sixteen.wav */,
+				041EB9D4259AA4C20046D745 /* Seventeen.wav */,
+				041EB9CE259AA4C20046D745 /* Ten.wav */,
+				041EB9D6259AA4C20046D745 /* Twelve.wav */,
+				041EB9CC259AA4C20046D745 /* Four.wav */,
+				041EB9D8259AA4C20046D745 /* Nine.wav */,
+				041EB9DF259AA4C30046D745 /* Eight.wav */,
+				041EB9D3259AA4C20046D745 /* Eleven.wav */,
+				041EB9D7259AA4C20046D745 /* One.wav */,
+				041EB9D9259AA4C20046D745 /* Fifteen.wav */,
+				041EB9CA259AA4C20046D745 /* Six.wav */,
+				041EB9CB259AA4C20046D745 /* Seven.wav */,
+				041EB9DA259AA4C20046D745 /* Three.wav */,
+				041EB9CF259AA4C20046D745 /* Thirteen.wav */,
+				041EB9D0259AA4C20046D745 /* Two.wav */,
+				041EB9DB259AA4C20046D745 /* Twenty.wav */,
+				041EB9DC259AA4C20046D745 /* Zero .wav */,
+			);
+			path = "Audios Ingles";
+			sourceTree = "<group>";
+		};
+		04625F8C25530CA10099490D /* Audios Italiano */ = {
+			isa = PBXGroup;
+			children = (
+				04625F9025530CEF0099490D /* Zero.wav */,
+				04625F8E25530CEF0099490D /* Uno.wav */,
+				04625F8F25530CEF0099490D /* Due.wav */,
+				04625F9125530CEF0099490D /* Tre.wav */,
+			);
+			path = "Audios Italiano";
+			sourceTree = "<group>";
+		};
+		04625F8D25530CB80099490D /* Audios Frances  */ = {
+			isa = PBXGroup;
+			children = (
+				0469C1FB259A707500F27DD4 /* Quatorze.wav */,
+				0469C201259A707500F27DD4 /* Zéro.wav */,
+				0469C1FA259A707500F27DD4 /* Cinq.wav */,
+				0469C1FF259A707500F27DD4 /* Quatre.wav */,
+				0469C1FD259A707500F27DD4 /* Dix-Neuf.wav */,
+				0469C1F8259A707500F27DD4 /* Dix-Huit.wav */,
+				0469C206259A707500F27DD4 /* Seize.wav */,
+				0469C1F5259A707500F27DD4 /* Dix-Sept.wav */,
+				0469C1FC259A707500F27DD4 /* Dix.wav */,
+				0469C205259A707500F27DD4 /* Douze.wav */,
+				0469C1FE259A707500F27DD4 /* Deux.wav */,
+				0469C1F7259A707500F27DD4 /* Neuf.wav */,
+				0469C203259A707500F27DD4 /* Huit.wav */,
+				0469C1F6259A707500F27DD4 /* Quinze.wav */,
+				0469C1F9259A707500F27DD4 /* Six .wav */,
+				0469C1F3259A707500F27DD4 /* Sept.wav */,
+				0469C202259A707500F27DD4 /* Treize.wav */,
+				0469C1F4259A707500F27DD4 /* Trois.wav */,
+				0469C204259A707500F27DD4 /* Un.wav */,
+				0469C200259A707500F27DD4 /* Vingt.wav */,
+			);
+			path = "Audios Frances ";
+			sourceTree = "<group>";
+		};
+		0469C1C1259A6ECB00F27DD4 /* Audios Español */ = {
+			isa = PBXGroup;
+			children = (
+				0468AFC925E425DA00945858 /* Catorce.wav */,
+				0468AFD025E425DA00945858 /* Cero.wav */,
+				0468AFC125E425D900945858 /* Cinco.wav */,
+				0468AFCB25E425DA00945858 /* Cuatro.wav */,
+				0468AFC025E425D900945858 /* Diecinueve.wav */,
+				0468AFC425E425DA00945858 /* Dieciocho.wav */,
+				0468AFD225E425DA00945858 /* Dieciseis.wav */,
+				0468AFC325E425D900945858 /* Diecisiete.wav */,
+				0468AFCA25E425DA00945858 /* Diez.wav */,
+				0468AFC525E425DA00945858 /* Doce.wav */,
+				0468AFD325E425DA00945858 /* Dos.wav */,
+				0468AFD425E425DA00945858 /* Nueve.wav */,
+				0468AFC625E425DA00945858 /* Ocho.wav */,
+				0468AFC225E425D900945858 /* Once.wav */,
+				0468AFCF25E425DA00945858 /* Quince.wav */,
+				0468AFCC25E425DA00945858 /* Seis.wav */,
+				0468AFD125E425DA00945858 /* Siete.wav */,
+				0468AFCD25E425DA00945858 /* Trece.wav */,
+				0468AFC725E425DA00945858 /* Tres.wav */,
+				0468AFCE25E425DA00945858 /* Uno .wav */,
+				0468AFC825E425DA00945858 /* Veinte.wav */,
+			);
+			name = "Audios Español";
+			path = "Audios Español";
+			sourceTree = "<group>";
+		};
+		0469C1C2259A6EE400F27DD4 /* Audios Aleman */ = {
+			isa = PBXGroup;
+			children = (
+				0469C276259A8D3900F27DD4 /* Acht.wav */,
+				041EB9C2259A9CCF0046D745 /* Eins.wav */,
+				0469C266259A8D3900F27DD4 /* Achtzehn.wav */,
+				0469C272259A8D3900F27DD4 /* Drei.wav */,
+				0469C270259A8D3900F27DD4 /* Dreizhen.wav */,
+				0469C271259A8D3900F27DD4 /* Elf.wav */,
+				0469C273259A8D3900F27DD4 /* Fünf.wav */,
+				0469C277259A8D3900F27DD4 /* Fünfzehn.wav */,
+				0469C279259A8D3900F27DD4 /* Neun.wav */,
+				0469C26E259A8D3900F27DD4 /* Neunzehn.wav */,
+				0469C26A259A8D3900F27DD4 /* Null.wav */,
+				0469C268259A8D3900F27DD4 /* Sechs.wav */,
+				0469C26D259A8D3900F27DD4 /* Sechzehn.wav */,
+				0469C269259A8D3900F27DD4 /* Sieben.wav */,
+				0469C26B259A8D3900F27DD4 /* Siebzehn.wav */,
+				0469C274259A8D3900F27DD4 /* Vier.wav */,
+				0469C267259A8D3900F27DD4 /* Vierzehn.wav */,
+				0469C26F259A8D3900F27DD4 /* Zehn.wav */,
+				0469C275259A8D3900F27DD4 /* Zwanzig.wav */,
+				0469C278259A8D3900F27DD4 /* Zwei.wav */,
+				0469C27A259A8D3900F27DD4 /* Zwölf.wav */,
+			);
+			path = "Audios Aleman";
+			sourceTree = "<group>";
+		};
+		0469C1C3259A6EFA00F27DD4 /* Audios Portugues */ = {
+			isa = PBXGroup;
+			children = (
+				0469C236259A70AE00F27DD4 /* Quatorze .wav */,
+				0469C23C259A70AE00F27DD4 /* CeroPortuOK.wav */,
+				0469C22D259A70AE00F27DD4 /* Cinco .wav */,
+				0469C22E259A70AE00F27DD4 /* Quatro.wav */,
+				0469C23B259A70AE00F27DD4 /* Dezenove.wav */,
+				0469C231259A70AE00F27DD4 /* Dezoito.wav */,
+				0469C22B259A70AE00F27DD4 /* Dezesseis.wav */,
+				0469C234259A70AE00F27DD4 /* Dezessete.wav */,
+				0469C23D259A70AE00F27DD4 /* Dez.wav */,
+				0469C22C259A70AE00F27DD4 /* Doze.wav */,
+				0469C22F259A70AE00F27DD4 /* Dois.wav */,
+				0469C233259A70AE00F27DD4 /* Nove .wav */,
+				0469C230259A70AE00F27DD4 /* Oito.wav */,
+				041EB9B7259A990A0046D745 /* Zero  .wav */,
+				0469C23E259A70AE00F27DD4 /* Onze .wav */,
+				0469C235259A70AE00F27DD4 /* Quinze .wav */,
+				0469C23A259A70AE00F27DD4 /* Seis .wav */,
+				0469C237259A70AE00F27DD4 /* Sete.wav */,
+				0469C232259A70AE00F27DD4 /* Treze.wav */,
+				0469C239259A70AE00F27DD4 /* Três.wav */,
+				0469C238259A70AE00F27DD4 /* Um.wav */,
+				0469C22A259A70AE00F27DD4 /* Vinte.wav */,
+			);
+			path = "Audios Portugues";
+			sourceTree = "<group>";
+		};
+		04A54AFA255312C100CBF29D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A54AFB255312C100CBF29D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04BF285325977C740061286E /* UnicaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				045105A42580D40500355193 /* Sounds */,
+				0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */,
+			);
+			path = UnicaViewController;
+			sourceTree = "<group>";
+		};
+		04C41876259122A500B4B2A1 /* SpeechRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */,
+				0437A2042582EA700068469B /* ExtensionComparator.swift */,
+				04C4187A2591354900B4B2A1 /* expandedCalifi.swift */,
+				046D369625EEE505005F0DFE /* Animation.swift */,
+				048A81BB2597999C001D68AB /* ExtensionFunction.swift */,
+				0466FAEB25ED1864005C09FD /* ExtensionFirstFilter.swift */,
+				048A81C32597AA0E001D68AB /* Timers.swift */,
+				04BF284C25977B700061286E /* correctSound.mp3 */,
+				04BF284D25977B700061286E /* incorrecSound.mp3 */,
+				048A81D12597B878001D68AB /* BtnPressHold.swift */,
+			);
+			path = SpeechRecognizer;
+			sourceTree = "<group>";
+		};
+		04D566FE25477C99000F9588 = {
+			isa = PBXGroup;
+			children = (
+				04C41876259122A500B4B2A1 /* SpeechRecognizer */,
+				04D5670925477C99000F9588 /* pruebaclasess */,
+				04D5672025477C9D000F9588 /* pruebaclasessTests */,
+				04D5672B25477C9D000F9588 /* pruebaclasessUITests */,
+				04D5670825477C99000F9588 /* Products */,
+				04A54AFA255312C100CBF29D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D5670825477C99000F9588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D5670725477C99000F9588 /* pruebaclasess.app */,
+				04D5671D25477C9D000F9588 /* pruebaclasessTests.xctest */,
+				04D5672825477C9D000F9588 /* pruebaclasessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D5670925477C99000F9588 /* pruebaclasess */ = {
+			isa = PBXGroup;
+			children = (
+				04D5670A25477C99000F9588 /* AppDelegate.swift */,
+				04D5670C25477C99000F9588 /* SceneDelegate.swift */,
+				04D5671025477C99000F9588 /* Main.storyboard */,
+				04D5671325477C9D000F9588 /* Assets.xcassets */,
+				04D5671525477C9D000F9588 /* LaunchScreen.storyboard */,
+				04D5671825477C9D000F9588 /* Info.plist */,
+				045EEAE1255B0EBD004E9268 /* extDesing.swift */,
+				04D5670E25477C99000F9588 /* ViewController.swift */,
+				046242E425B35D3D00D3FF43 /* Numbers.swift */,
+				04BF285325977C740061286E /* UnicaViewController */,
+			);
+			path = pruebaclasess;
+			sourceTree = "<group>";
+		};
+		04D5672025477C9D000F9588 /* pruebaclasessTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D5672125477C9D000F9588 /* pruebaclasessTests.swift */,
+				04D5672325477C9D000F9588 /* Info.plist */,
+			);
+			path = pruebaclasessTests;
+			sourceTree = "<group>";
+		};
+		04D5672B25477C9D000F9588 /* pruebaclasessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D5672C25477C9D000F9588 /* pruebaclasessUITests.swift */,
+				04D5672E25477C9D000F9588 /* Info.plist */,
+			);
+			path = pruebaclasessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D5670625477C99000F9588 /* pruebaclasess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5673125477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasess" */;
+			buildPhases = (
+				04D5670325477C99000F9588 /* Sources */,
+				04D5670425477C99000F9588 /* Frameworks */,
+				04D5670525477C99000F9588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pruebaclasess;
+			productName = pruebaclasess;
+			productReference = 04D5670725477C99000F9588 /* pruebaclasess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D5671C25477C9D000F9588 /* pruebaclasessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5673425477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasessTests" */;
+			buildPhases = (
+				04D5671925477C9D000F9588 /* Sources */,
+				04D5671A25477C9D000F9588 /* Frameworks */,
+				04D5671B25477C9D000F9588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5671F25477C9D000F9588 /* PBXTargetDependency */,
+			);
+			name = pruebaclasessTests;
+			productName = pruebaclasessTests;
+			productReference = 04D5671D25477C9D000F9588 /* pruebaclasessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D5672725477C9D000F9588 /* pruebaclasessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5673725477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasessUITests" */;
+			buildPhases = (
+				04D5672425477C9D000F9588 /* Sources */,
+				04D5672525477C9D000F9588 /* Frameworks */,
+				04D5672625477C9D000F9588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5672A25477C9D000F9588 /* PBXTargetDependency */,
+			);
+			name = pruebaclasessUITests;
+			productName = pruebaclasessUITests;
+			productReference = 04D5672825477C9D000F9588 /* pruebaclasessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D566FF25477C99000F9588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					04D5670625477C99000F9588 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					04D5671C25477C9D000F9588 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04D5670625477C99000F9588;
+					};
+					04D5672725477C9D000F9588 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 04D5670625477C99000F9588;
+					};
+				};
+			};
+			buildConfigurationList = 04D5670225477C99000F9588 /* Build configuration list for PBXProject "pruebaclasess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D566FE25477C99000F9588;
+			productRefGroup = 04D5670825477C99000F9588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D5670625477C99000F9588 /* pruebaclasess */,
+				04D5671C25477C9D000F9588 /* pruebaclasessTests */,
+				04D5672725477C9D000F9588 /* pruebaclasessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D5670525477C99000F9588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468AFE225E425DA00945858 /* Trece.wav in Resources */,
+				0469C28D259A8D3A00F27DD4 /* Zwei.wav in Resources */,
+				0469C251259A70AE00F27DD4 /* CeroPortuOK.wav in Resources */,
+				0469C211259A707500F27DD4 /* Dix-Neuf.wav in Resources */,
+				0469C285259A8D3A00F27DD4 /* Dreizhen.wav in Resources */,
+				0469C28B259A8D3A00F27DD4 /* Acht.wav in Resources */,
+				041EB9F3259AA4C30046D745 /* Zero .wav in Resources */,
+				0468AFDE25E425DA00945858 /* Catorce.wav in Resources */,
+				0469C20B259A707500F27DD4 /* Neuf.wav in Resources */,
+				041EB9E5259AA4C30046D745 /* Ten.wav in Resources */,
+				0469C28F259A8D3A00F27DD4 /* Zwölf.wav in Resources */,
+				0469C215259A707500F27DD4 /* Zéro.wav in Resources */,
+				04625F9225530CEF0099490D /* Uno.wav in Resources */,
+				0469C213259A707500F27DD4 /* Quatre.wav in Resources */,
+				0469C27E259A8D3A00F27DD4 /* Sieben.wav in Resources */,
+				0468AFE425E425DA00945858 /* Quince.wav in Resources */,
+				04D5671725477C9D000F9588 /* LaunchScreen.storyboard in Resources */,
+				0469C245259A70AE00F27DD4 /* Oito.wav in Resources */,
+				041EB9E2259AA4C30046D745 /* Seven.wav in Resources */,
+				041EB9F4259AA4C30046D745 /* Fourteen.wav in Resources */,
+				0469C208259A707500F27DD4 /* Trois.wav in Resources */,
+				041EB9F0259AA4C30046D745 /* Fifteen.wav in Resources */,
+				041EB9E3259AA4C30046D745 /* Four.wav in Resources */,
+				0469C20A259A707500F27DD4 /* Quinze.wav in Resources */,
+				0468AFDB25E425DA00945858 /* Ocho.wav in Resources */,
+				0469C243259A70AE00F27DD4 /* Quatro.wav in Resources */,
+				041EB9F1259AA4C30046D745 /* Three.wav in Resources */,
+				0468AFE725E425DA00945858 /* Dieciseis.wav in Resources */,
+				0469C20E259A707500F27DD4 /* Cinq.wav in Resources */,
+				0468AFDC25E425DA00945858 /* Tres.wav in Resources */,
+				0469C217259A707500F27DD4 /* Huit.wav in Resources */,
+				0469C252259A70AE00F27DD4 /* Dez.wav in Resources */,
+				0469C247259A70AE00F27DD4 /* Treze.wav in Resources */,
+				0469C241259A70AE00F27DD4 /* Doze.wav in Resources */,
+				041EB9F2259AA4C30046D745 /* Twenty.wav in Resources */,
+				0469C28C259A8D3A00F27DD4 /* Fünfzehn.wav in Resources */,
+				0469C287259A8D3A00F27DD4 /* Drei.wav in Resources */,
+				041EB9C3259A9CCF0046D745 /* Eins.wav in Resources */,
+				0469C283259A8D3A00F27DD4 /* Neunzehn.wav in Resources */,
+				041EB9E1259AA4C30046D745 /* Six.wav in Resources */,
+				0469C27C259A8D3A00F27DD4 /* Vierzehn.wav in Resources */,
+				0469C288259A8D3A00F27DD4 /* Fünf.wav in Resources */,
+				04BF284E25977B700061286E /* correctSound.mp3 in Resources */,
+				0469C249259A70AE00F27DD4 /* Dezessete.wav in Resources */,
+				0469C24D259A70AE00F27DD4 /* Um.wav in Resources */,
+				0468AFE525E425DA00945858 /* Cero.wav in Resources */,
+				0468AFE925E425DA00945858 /* Nueve.wav in Resources */,
+				0469C214259A707500F27DD4 /* Vingt.wav in Resources */,
+				041EB9F7259AA4C30046D745 /* Eighteen.wav in Resources */,
+				0468AFE325E425DA00945858 /* Uno .wav in Resources */,
+				041EB9EE259AA4C30046D745 /* One.wav in Resources */,
+				0469C284259A8D3A00F27DD4 /* Zehn.wav in Resources */,
+				0469C216259A707500F27DD4 /* Treize.wav in Resources */,
+				0469C210259A707500F27DD4 /* Dix.wav in Resources */,
+				0469C286259A8D3A00F27DD4 /* Elf.wav in Resources */,
+				0469C24A259A70AE00F27DD4 /* Quinze .wav in Resources */,
+				041EB9B8259A990A0046D745 /* Zero  .wav in Resources */,
+				0469C212259A707500F27DD4 /* Deux.wav in Resources */,
+				041EB9EA259AA4C30046D745 /* Eleven.wav in Resources */,
+				0469C20C259A707500F27DD4 /* Dix-Huit.wav in Resources */,
+				0469C21A259A707500F27DD4 /* Seize.wav in Resources */,
+				0469C218259A707500F27DD4 /* Un.wav in Resources */,
+				0468AFE125E425DA00945858 /* Seis.wav in Resources */,
+				0469C27F259A8D3A00F27DD4 /* Null.wav in Resources */,
+				0469C20D259A707500F27DD4 /* Six .wav in Resources */,
+				0468AFDD25E425DA00945858 /* Veinte.wav in Resources */,
+				0469C28A259A8D3A00F27DD4 /* Zwanzig.wav in Resources */,
+				0468AFD625E425DA00945858 /* Cinco.wav in Resources */,
+				0469C240259A70AE00F27DD4 /* Dezesseis.wav in Resources */,
+				0468AFDA25E425DA00945858 /* Doce.wav in Resources */,
+				0469C23F259A70AE00F27DD4 /* Vinte.wav in Resources */,
+				0469C28E259A8D3A00F27DD4 /* Neun.wav in Resources */,
+				0469C24E259A70AE00F27DD4 /* Três.wav in Resources */,
+				0469C24F259A70AE00F27DD4 /* Seis .wav in Resources */,
+				041EB9E4259AA4C30046D745 /* Sixteen.wav in Resources */,
+				0469C248259A70AE00F27DD4 /* Nove .wav in Resources */,
+				04D5671425477C9D000F9588 /* Assets.xcassets in Resources */,
+				0469C246259A70AE00F27DD4 /* Dezoito.wav in Resources */,
+				0469C282259A8D3A00F27DD4 /* Sechzehn.wav in Resources */,
+				0468AFE625E425DA00945858 /* Siete.wav in Resources */,
+				0469C20F259A707500F27DD4 /* Quatorze.wav in Resources */,
+				0468AFD925E425DA00945858 /* Dieciocho.wav in Resources */,
+				041EB9E8259AA4C30046D745 /* Five.wav in Resources */,
+				0469C27D259A8D3A00F27DD4 /* Sechs.wav in Resources */,
+				0468AFE025E425DA00945858 /* Cuatro.wav in Resources */,
+				041EB9EF259AA4C30046D745 /* Nine.wav in Resources */,
+				0469C280259A8D3A00F27DD4 /* Siebzehn.wav in Resources */,
+				0469C24C259A70AE00F27DD4 /* Sete.wav in Resources */,
+				0468AFD725E425DA00945858 /* Once.wav in Resources */,
+				041EB9F6259AA4C30046D745 /* Eight.wav in Resources */,
+				0468AFD825E425DA00945858 /* Diecisiete.wav in Resources */,
+				04625F9325530CEF0099490D /* Due.wav in Resources */,
+				041EB9E6259AA4C30046D745 /* Thirteen.wav in Resources */,
+				04D5671225477C99000F9588 /* Main.storyboard in Resources */,
+				041EB9E7259AA4C30046D745 /* Two.wav in Resources */,
+				0469C289259A8D3A00F27DD4 /* Vier.wav in Resources */,
+				041EB9EB259AA4C30046D745 /* Seventeen.wav in Resources */,
+				0469C219259A707500F27DD4 /* Douze.wav in Resources */,
+				04625F9425530CEF0099490D /* Zero.wav in Resources */,
+				041EB9F5259AA4C30046D745 /* Nineteen.wav in Resources */,
+				0469C207259A707500F27DD4 /* Sept.wav in Resources */,
+				041EB9ED259AA4C30046D745 /* Twelve.wav in Resources */,
+				04BF284F25977B700061286E /* incorrecSound.mp3 in Resources */,
+				0468AFD525E425DA00945858 /* Diecinueve.wav in Resources */,
+				0469C242259A70AE00F27DD4 /* Cinco .wav in Resources */,
+				0468AFDF25E425DA00945858 /* Diez.wav in Resources */,
+				0469C253259A70AE00F27DD4 /* Onze .wav in Resources */,
+				0469C250259A70AE00F27DD4 /* Dezenove.wav in Resources */,
+				0469C209259A707500F27DD4 /* Dix-Sept.wav in Resources */,
+				0469C244259A70AE00F27DD4 /* Dois.wav in Resources */,
+				0469C27B259A8D3A00F27DD4 /* Achtzehn.wav in Resources */,
+				0468AFE825E425DA00945858 /* Dos.wav in Resources */,
+				04625F9525530CEF0099490D /* Tre.wav in Resources */,
+				0469C24B259A70AE00F27DD4 /* Quatorze .wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5671B25477C9D000F9588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5672625477C9D000F9588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D5670325477C99000F9588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B32A29256310C200E6E72B /* extensionAudio.swift in Sources */,
+				04D5670F25477C99000F9588 /* ViewController.swift in Sources */,
+				04C41885259138E800B4B2A1 /* SpeechRecognizer.swift in Sources */,
+				0441196D2551EF3E00A7CEE4 /* UnicaViewController.swift in Sources */,
+				04C4187B2591354900B4B2A1 /* expandedCalifi.swift in Sources */,
+				048A81D22597B878001D68AB /* BtnPressHold.swift in Sources */,
+				045EEAE2255B0EBD004E9268 /* extDesing.swift in Sources */,
+				048A81BC2597999C001D68AB /* ExtensionFunction.swift in Sources */,
+				046242E525B35D3D00D3FF43 /* Numbers.swift in Sources */,
+				0466FAEC25ED1864005C09FD /* ExtensionFirstFilter.swift in Sources */,
+				048A81C42597AA0E001D68AB /* Timers.swift in Sources */,
+				04D5670B25477C99000F9588 /* AppDelegate.swift in Sources */,
+				0437A2052582EA700068469B /* ExtensionComparator.swift in Sources */,
+				046D369725EEE505005F0DFE /* Animation.swift in Sources */,
+				04D5670D25477C99000F9588 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5671925477C9D000F9588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5672225477C9D000F9588 /* pruebaclasessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5672425477C9D000F9588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5672D25477C9D000F9588 /* pruebaclasessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D5671F25477C9D000F9588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5670625477C99000F9588 /* pruebaclasess */;
+			targetProxy = 04D5671E25477C9D000F9588 /* PBXContainerItemProxy */;
+		};
+		04D5672A25477C9D000F9588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5670625477C99000F9588 /* pruebaclasess */;
+			targetProxy = 04D5672925477C9D000F9588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D5671025477C99000F9588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5671125477C99000F9588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D5671525477C9D000F9588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5671625477C9D000F9588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D5672F25477C9D000F9588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D5673025477C9D000F9588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D5673225477C9D000F9588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D5673325477C9D000F9588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D5673525477C9D000F9588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebaclasess.app/pruebaclasess";
+			};
+			name = Debug;
+		};
+		04D5673625477C9D000F9588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasessTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebaclasess.app/pruebaclasess";
+			};
+			name = Release;
+		};
+		04D5673825477C9D000F9588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pruebaclasess;
+			};
+			name = Debug;
+		};
+		04D5673925477C9D000F9588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB5K845S49;
+				INFOPLIST_FILE = pruebaclasessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstMArtin2App.pruebaclasessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pruebaclasess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D5670225477C99000F9588 /* Build configuration list for PBXProject "pruebaclasess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5672F25477C9D000F9588 /* Debug */,
+				04D5673025477C9D000F9588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5673125477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5673225477C9D000F9588 /* Debug */,
+				04D5673325477C9D000F9588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5673425477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5673525477C9D000F9588 /* Debug */,
+				04D5673625477C9D000F9588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5673725477C9D000F9588 /* Build configuration list for PBXNativeTarget "pruebaclasessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5673825477C9D000F9588 /* Debug */,
+				04D5673925477C9D000F9588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D566FF25477C99000F9588 /* Project object */;
+}
