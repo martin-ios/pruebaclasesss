@@ -16,19 +16,19 @@ extension SpeechRecognizer {
     
         let srt = self.onlyLeters
         
-        self.newArray = srt.components(separatedBy:" ")
-        print("\(newArray)newa")
+        self.answerSpeechArray = srt.components(separatedBy:" ")
+        print("\(answerSpeechArray)newa")
        
         let srt2 = self.elements
-        self.newArray2 = srt2.components(separatedBy:" ")
+        self.baseDataNumberArray = srt2.components(separatedBy:" ")
         
      
-        for element in self.newArray2 {
-            for word in self.newArray {
+        for element in self.baseDataNumberArray {
+            for word in self.answerSpeechArray {
                 if element == word {
-                    self.filtered.append(word);
+                    self.wordsFiltered.append(word);
                     
-                    self.filtered.removingDuplicate();                  print("\(self.filtered)if si")
+                    self.wordsFiltered.removingDuplicate();                  print("\(self.wordsFiltered)if si")
                 }
             }
         }
@@ -37,30 +37,30 @@ extension SpeechRecognizer {
     
     
     func comparator() {
-        let arrayZ = ""
+
+        self.concatenateWordsFiltered = self.wordsFiltered.concatenate()
         
-        guard onlyLeters != arrayZ else {
-             self.filtered = ["Error"]; print("\(filtered)");
-                silense()
-       return }
-  
-        self.convertedFiltered = self.filtered.concatenate()
-        self.lblSpeech.text = self.convertedFiltered
+        print("\(concatenateWordsFiltered) concatenate")
         
-        
-        if self.convertedFiltered == elements {
-            self.lblSpeech.text = self.convertedFiltered
-            self.lblSpeech.textColor = UIColor.gray
-            resetParola()
+        if self.concatenateWordsFiltered == self.elements
+            && self.concatenateWordsFiltered != ""  {
+            self.displaySpeechLbl.text = concatenateWordsFiltered
+            self.displaySpeechLbl.textColor = UIColor.gray
             correctWordTimer()
-            lblArraySpeech.text = aray[0]
+            print("correcto")
         } else {
-            self.lblSpeech.text = self.onlyLeters
-            self.lblSpeech.textColor = UIColor.gray
-            incorrectWordTimer()
-            self.lblArraySpeech.text = self.aray[0]
-            resetParola()
-            
+            if self.answerSpeechArray == [""] {
+                silence()
+             print("silencio")
+            }
+            else {
+                self.displaySpeechLbl.text = self.onlyLeters
+                self.displaySpeechLbl.textColor = UIColor.gray
+                incorrectWordTimer()
+      print("equivocado")
+          
+               // print("\(self.convertedFiltered) converted \(elements) elements")
+            }
         }
-    }
+   }
 }

@@ -25,9 +25,13 @@ class UnicaViewController : UIViewController{
     var player: AVAudioPlayer!
     var codeSpeechUnica : String?
     
-    @IBOutlet weak var lbl: UILabel!
-    @IBOutlet weak var lbl2: UILabel!
-    @IBOutlet weak var DescripLbl2: UILabel!
+    
+   
+    @IBOutlet weak var  nameLanguageLbl: UILabel!
+    @IBOutlet weak var numberLbl: UILabel!
+    @IBOutlet weak var descriptionNumberLbl: UILabel!
+ 
+    
     @IBOutlet weak var btnPress: UIButton!
     @IBOutlet weak var btnPressRest: UIButton!
     @IBOutlet weak var rptLbl: UILabel!
@@ -37,30 +41,23 @@ class UnicaViewController : UIViewController{
     @IBOutlet weak var expandedConstrains: NSLayoutConstraint!
     @IBOutlet weak var circleLbl:UIView!
 
-    @IBOutlet weak var progressLevel: UIProgressView!
-    
-
-    
+ 
     override func viewDidLoad() {
             super.viewDidLoad()
         
-        lbl.text = idiomaG
+        nameLanguageLbl.text = idiomaG
         rptLbl.desingLblRpt()
         btnRptOutlet.desingBtnRpt()
-        lbl.DesignLblTitle()
-        lbl2.desingLbl2()
+        nameLanguageLbl.DesignLblTitle()
+        numberLbl.desingLbl2()
         view.desingView()
         expandView.desingView()
         btnPress.desingBtn()
         btnPressRest.desingBtn()
-        DescripLbl2.desingDescripLbl()
+        descriptionNumberLbl.desingDescripLbl()
         circleLbl.designBtnRepetir()
-        progressLevel.progress = 0
         
-        
-        
-        
-        
+               
 }
  
     @IBAction func btnExpandSpeech(_ sender: Any) {
@@ -88,57 +85,39 @@ class UnicaViewController : UIViewController{
         
         let convert = counterF
         let convertText = String(convert)
-        lbl2.text = convertText
+        numberLbl.text = convertText
         
-        DescripLbl2.text = descriptionG![counterF]
+        descriptionNumberLbl.text = descriptionG![counterF]
        numberSound()
         btnPress.setTitle("SIGUIENTE", for: .normal)
         btnPressRest.setTitle("ATRAS", for: .normal)
-        
-       
-      
-                 
+               
 }
-    
-    
-    
+  
  
     @IBAction func counterPress(_ sender: Any) {
-        
-       
-        
-        
+      
         counterF = counterF + 1
         guard counterF < descriptionG!.count else {
             
-            DescripLbl2.text = "Esto es todo viejo"
+            descriptionNumberLbl.text = "Esto es todo viejo"
         return }
         
       //  if counterF > 20 {counterF = 0 }
-        
-        
-     //®   print(progress)
-        
-        
-        
+               
         let convert = counterF
         let convertText = String(convert)
-        lbl2.text = convertText
+        numberLbl.text = convertText
         
         print(convert)
         let progres = Float (convert / 20)
         
-        DescripLbl2.text = descriptionG![counterF]
-       
-        
-        
+        descriptionNumberLbl.text = descriptionG![counterF]
+ 
       numberSound()
         print(String(describing: descriptionG?[counterF]))
-        progressLevel.progress = progres
-       
+      
  }
-    
-    
 
    @IBAction func counterPressResta(_ sender: Any) {
                   
@@ -147,14 +126,12 @@ class UnicaViewController : UIViewController{
     if counterF < 0 { counterF = 20 }
     let convert = counterF
     let convertText = String(convert)
-    lbl2.text = convertText
+    numberLbl.text = convertText
     
-    DescripLbl2.text = descriptionG?[counterF]
+    descriptionNumberLbl.text = descriptionG?[counterF]
     
     numberSound()
     print(String(describing: descriptionG?[counterF]))
-    
-    
    }
     
 

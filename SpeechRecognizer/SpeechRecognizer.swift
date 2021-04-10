@@ -8,11 +8,12 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
   
     // MARK: - PROPERTY
     var elements = String()
-    var filtered: [String] = []
-    var newArray: [String] = []
+    var wordsFiltered: [String] = []
+    var answerSpeechArray: [String] = []
     var words = String()
-    var newArray2: [String] = []
+    var baseDataNumberArray: [String] = []
     var convertedFiltered = String()
+    var concatenateWordsFiltered = String()
     
     // AUDIO
     var alertWordCorr: AVAudioPlayer?
@@ -32,13 +33,15 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
     @IBOutlet weak var titleLblSpeech: UILabel!
     @IBOutlet weak var lblOptionalSpeech: UILabel!
     @IBOutlet weak var lblArraySpeech: UILabel!
-    @IBOutlet weak var lblSpeech: UILabel!
+    
+    @IBOutlet weak var displaySpeechLbl: UILabel!
+
     @IBOutlet weak var viewCheckSpeech: UIImageView!
     @IBOutlet weak var btnPressHSpeech: UIButton!
     @IBOutlet weak var viewRpt: UIView!
     @IBOutlet weak var btnRpt: UIButton!
     @IBOutlet weak var lblRpt: UILabel!
-    @IBOutlet weak var viewNext: UIView!
+    
     @IBOutlet weak var btnFoward: UIButton!
     private var audioEngine = AVAudioEngine()
     @IBOutlet weak var lblNumberSpeech: UILabel!
@@ -59,30 +62,28 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
         super.viewDidLoad()
         speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: codeSpeech! ))
         overrideBtn()
+       
         lblOptionalSpeech.text = "Practíca la pronunciación"
         lblOptionalSpeech.textColor = UIColor.black
-        requestPermission()
         titleLblSpeech.text = idiomaGSpeech
-        lblArraySpeech.desingViewSpeech()
         lblArraySpeech.text = aray[0]
         lblArraySpeech.textColor = .systemBackground
+        lblNumberSpeech.text = "0"
+        
+        lblArraySpeech.desingViewSpeech()
         btnPressHSpeech.desingbtnSpeech()
-    //    btnPressHSpeech.pulsante()
-        lblSpeech.lblSpeech()
+        requestPermission()
+        displaySpeechLbl.lblSpeech()
         view.desingView()
         titleLblSpeech.DesignLblTitle()
-      //  lblArraySpeech.lblSpeech()
+      
+        
         btnRpt.desingBtnRpt()
         viewRpt.designBtnRepetir()
         lblRpt.desingLblRpt()
         btnFoward.desingBtnRpt()
-        lblNumberSpeech.text = "0"
         lblNumberSpeech.desingLbl2()
         btnRpt.isUserInteractionEnabled = true
-        
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SpeechRecognizer.addPulse))
-        
-        
 
         
         
@@ -108,15 +109,7 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
     }
     
     
-    
-    @objc func addPulse() {
-        
-        let pulse = Pulsing(numberOfPulse: 1, radius: 110, position: btnRpt.center )
-        pulse.animationDuration = 0.8
-        pulse.backgroundColor = UIColor.blue.cgColor
-        self.view.layer.insertSublayer(pulse, below: btnRpt.layer)
-        
-    }
+
     func numberSoundSP() {
   let filename = aray[0]
   guard let url = Bundle.main.url(forResource: filename, withExtension: "wav") else { return }
@@ -223,11 +216,11 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
             return }
         
         let message = response.bestTranscription.formattedString.uppercased()
-        self.lblSpeech.text = self.words
+        self.displaySpeechLbl.text = self.words
        self.words = message.uppercased().trimmingCharacters(in: .whitespaces)
         
        
-        
+ 
         
         
        self.elements = self.aray[0].uppercased().trimmingCharacters(in: .whitespaces)

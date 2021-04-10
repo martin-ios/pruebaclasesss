@@ -8,95 +8,31 @@
 //import Foundation
 import UIKit
 
-class Pulsing: CALayer {
-    
-    var animationGrup = CAAnimationGroup()
-    var initialPulseScale:Float = 0
-    var nextPulseAfter:TimeInterval = 0
-    var animationDuration:TimeInterval = 1.5
-    var radius:CGFloat = 200
-    var numberOfPulse:Float = Float.infinity
+extension SpeechRecognizer {
     
     
-    override init(layer: Any) {
-        super.init(layer: layer )
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder : aDecoder)
-    }
-    
-    
-    init(numberOfPulse: Float = Float.infinity, radius:CGFloat, position: CGPoint ) {
-        super.init()
-    
-        self.backgroundColor = UIColor.black.cgColor
-        self.contentsScale = UIScreen.main.scale
-        self.opacity = 0
-        self.radius = radius
-        self.numberOfPulse = numberOfPulse
-        self.position = position
-        
-        
-        self.bounds = CGRect(x: 0, y:0, width: radius * 2 , height: radius * 2)
-        self.cornerRadius = radius
-        
-        
-        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
-            self.setupAnimationGroup()
+    func buttonHoldAnimation() {
             
-            DispatchQueue.main.async {
-                self.add(self.animationGrup, forKey: "pulsante")
-            }
-        }
+            let pulse = CASpringAnimation(keyPath: "transform.scale.xy")
+        pulse.duration = 1.25
+            pulse.fromValue = 0.75
+            pulse.toValue = 1.0
+            pulse.autoreverses = true
+            pulse.repeatCount = 1
+        pulse.initialVelocity = 0.1
+        pulse.damping = 0
+        btnPressHSpeech.layer.add(pulse, forKey: nil)
         
+        let opacityPulse = CAKeyframeAnimation(keyPath: "opacity")
+        opacityPulse.duration = 1
+        opacityPulse.repeatCount = 1
+        opacityPulse.autoreverses = true
        
-        
-        
-        
-    }
-    func createScaleAnimation() -> CABasicAnimation {
-        
-     let scaleAnimation = CABasicAnimation(keyPath: "transform.scale.xy")
-        scaleAnimation.fromValue = NSNumber(value: initialPulseScale )
-        scaleAnimation.toValue = NSNumber(value: 1)
-        scaleAnimation.duration = animationDuration
-        
-        return scaleAnimation
-    }
-    
-    func createOpacityAnimation() -> CAKeyframeAnimation {
-        
-        let opacityAnimation = CAKeyframeAnimation(keyPath: "opacity")
-        opacityAnimation.duration = animationDuration
-        opacityAnimation.values = [0.4,0.8, 1]
-        opacityAnimation.keyTimes = [0, 0.2,1]
-        return opacityAnimation
-    }
-    
-    func setupAnimationGroup() {
-        self.animationGrup = CAAnimationGroup()
-        self.animationGrup.duration = animationDuration + nextPulseAfter
-        self.animationGrup.repeatCount = numberOfPulse
-     //   let defaultCurve = CAMediaTimingFunction()
-        
-        
-        
-        
-       // self.animationGrup.timingFunction = defaultCurve
-        self.animationGrup.animations = [createScaleAnimation(), createOpacityAnimation()]
-        
-        
+        opacityPulse.values = [0.1, 0.8, 0.5]
+        opacityPulse.keyTimes = [0, 0.5, 1]
+        btnPressHSpeech.layer.add(opacityPulse, forKey: nil)
         
     }
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
+   
 }
+

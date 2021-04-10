@@ -17,8 +17,10 @@ extension SpeechRecognizer {
                print("recording voice here")
            
           startSpeechRecognization()
-            print("\(aray)")
+            buttonHoldAnimation()
             
+            print("\(aray)")
+          
            }
            else if sender.state == .ended {
              print("stop the recording voice here")
