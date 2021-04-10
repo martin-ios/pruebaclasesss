@@ -43,6 +43,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, UITableViewDataSo
         
         super.viewDidLoad()
                tableView.dataSource = self
+        tableView.frame = view.bounds
                tableView.delegate = self
                tableView.reloadData()
         

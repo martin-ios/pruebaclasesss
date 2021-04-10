@@ -33,7 +33,6 @@
 		0437A2052582EA700068469B /* ExtensionComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437A2042582EA700068469B /* ExtensionComparator.swift */; };
 		0441196D2551EF3E00A7CEE4 /* UnicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */; };
 		045EEAE2255B0EBD004E9268 /* extDesing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045EEAE1255B0EBD004E9268 /* extDesing.swift */; };
-		046242E525B35D3D00D3FF43 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046242E425B35D3D00D3FF43 /* Numbers.swift */; };
 		04625F9225530CEF0099490D /* Uno.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F8E25530CEF0099490D /* Uno.wav */; };
 		04625F9325530CEF0099490D /* Due.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F8F25530CEF0099490D /* Due.wav */; };
 		04625F9425530CEF0099490D /* Zero.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04625F9025530CEF0099490D /* Zero.wav */; };
@@ -122,15 +121,15 @@
 		0469C28E259A8D3A00F27DD4 /* Neun.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C279259A8D3900F27DD4 /* Neun.wav */; };
 		0469C28F259A8D3A00F27DD4 /* Zwölf.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0469C27A259A8D3900F27DD4 /* Zwölf.wav */; };
 		046D369725EEE505005F0DFE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D369625EEE505005F0DFE /* Animation.swift */; };
+		0477A314260CFDD500AD4B45 /* incorrecSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0477A312260CFDD500AD4B45 /* incorrecSound.mp3 */; };
+		0477A315260CFDD500AD4B45 /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0477A313260CFDD500AD4B45 /* correctSound.mp3 */; };
 		048A81BC2597999C001D68AB /* ExtensionFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81BB2597999C001D68AB /* ExtensionFunction.swift */; };
 		048A81C42597AA0E001D68AB /* Timers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81C32597AA0E001D68AB /* Timers.swift */; };
 		048A81D22597B878001D68AB /* BtnPressHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A81D12597B878001D68AB /* BtnPressHold.swift */; };
 		04A54AFC255312C100CBF29D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A54AFB255312C100CBF29D /* AVFoundation.framework */; };
 		04B32A29256310C200E6E72B /* extensionAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B32A28256310C200E6E72B /* extensionAudio.swift */; };
-		04BF284E25977B700061286E /* correctSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF284C25977B700061286E /* correctSound.mp3 */; };
-		04BF284F25977B700061286E /* incorrecSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF284D25977B700061286E /* incorrecSound.mp3 */; };
-		04C4187B2591354900B4B2A1 /* expandedCalifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C4187A2591354900B4B2A1 /* expandedCalifi.swift */; };
 		04C41885259138E800B4B2A1 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */; };
+		04C6441C2614E8FE006C5530 /* SlowRepeatAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6441B2614E8FE006C5530 /* SlowRepeatAudio.swift */; };
 		04D5670B25477C99000F9588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670A25477C99000F9588 /* AppDelegate.swift */; };
 		04D5670D25477C99000F9588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670C25477C99000F9588 /* SceneDelegate.swift */; };
 		04D5670F25477C99000F9588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5670E25477C99000F9588 /* ViewController.swift */; };
@@ -185,7 +184,6 @@
 		0437A2042582EA700068469B /* ExtensionComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionComparator.swift; sourceTree = "<group>"; };
 		0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicaViewController.swift; sourceTree = "<group>"; };
 		045EEAE1255B0EBD004E9268 /* extDesing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extDesing.swift; sourceTree = "<group>"; };
-		046242E425B35D3D00D3FF43 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		04625F8E25530CEF0099490D /* Uno.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Uno.wav; sourceTree = "<group>"; };
 		04625F8F25530CEF0099490D /* Due.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Due.wav; sourceTree = "<group>"; };
 		04625F9025530CEF0099490D /* Zero.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zero.wav; sourceTree = "<group>"; };
@@ -274,15 +272,15 @@
 		0469C279259A8D3900F27DD4 /* Neun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Neun.wav; path = "../../../../../../Documents/Numeros Aleman/Neun.wav"; sourceTree = "<group>"; };
 		0469C27A259A8D3900F27DD4 /* Zwölf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Zwölf.wav"; path = "../../../../../../Documents/Numeros Aleman/Zwölf.wav"; sourceTree = "<group>"; };
 		046D369625EEE505005F0DFE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		0477A312260CFDD500AD4B45 /* incorrecSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = incorrecSound.mp3; path = "../../../../Documents/Numeros Inlges/incorrecSound.mp3"; sourceTree = "<group>"; };
+		0477A313260CFDD500AD4B45 /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correctSound.mp3; path = "../../../../Documents/Numeros Inlges/correctSound.mp3"; sourceTree = "<group>"; };
 		048A81BB2597999C001D68AB /* ExtensionFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionFunction.swift; sourceTree = "<group>"; };
 		048A81C32597AA0E001D68AB /* Timers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timers.swift; sourceTree = "<group>"; };
 		048A81D12597B878001D68AB /* BtnPressHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnPressHold.swift; sourceTree = "<group>"; };
 		04A54AFB255312C100CBF29D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		04B32A28256310C200E6E72B /* extensionAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionAudio.swift; sourceTree = "<group>"; };
-		04BF284C25977B700061286E /* correctSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correctSound.mp3; path = "../../Speech Recognization/Sounds/correctSound.mp3"; sourceTree = "<group>"; };
-		04BF284D25977B700061286E /* incorrecSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = incorrecSound.mp3; path = "../../Speech Recognization/Sounds/incorrecSound.mp3"; sourceTree = "<group>"; };
-		04C4187A2591354900B4B2A1 /* expandedCalifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expandedCalifi.swift; sourceTree = "<group>"; };
 		04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		04C6441B2614E8FE006C5530 /* SlowRepeatAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowRepeatAudio.swift; sourceTree = "<group>"; };
 		04D5670725477C99000F9588 /* pruebaclasess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaclasess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5670A25477C99000F9588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D5670C25477C99000F9588 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -331,7 +329,6 @@
 				0469C1C3259A6EFA00F27DD4 /* Audios Portugues */,
 				0469C1C2259A6EE400F27DD4 /* Audios Aleman */,
 				0469C1C1259A6ECB00F27DD4 /* Audios Español */,
-				04B32A28256310C200E6E72B /* extensionAudio.swift */,
 				04625F8C25530CA10099490D /* Audios Italiano */,
 				04625F8D25530CB80099490D /* Audios Frances  */,
 				045DF76925545CC900D57752 /* Audios Ingles */,
@@ -491,6 +488,15 @@
 			path = "Audios Portugues";
 			sourceTree = "<group>";
 		};
+		0477A2FD260CFA6A00AD4B45 /* Sound Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				0477A313260CFDD500AD4B45 /* correctSound.mp3 */,
+				0477A312260CFDD500AD4B45 /* incorrecSound.mp3 */,
+			);
+			path = "Sound Alerts";
+			sourceTree = "<group>";
+		};
 		04A54AFA255312C100CBF29D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +510,7 @@
 			children = (
 				045105A42580D40500355193 /* Sounds */,
 				0441196C2551EF3E00A7CEE4 /* UnicaViewController.swift */,
+				04B32A28256310C200E6E72B /* extensionAudio.swift */,
 			);
 			path = UnicaViewController;
 			sourceTree = "<group>";
@@ -511,15 +518,14 @@
 		04C41876259122A500B4B2A1 /* SpeechRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				0477A2FD260CFA6A00AD4B45 /* Sound Alerts */,
 				04C41884259138E800B4B2A1 /* SpeechRecognizer.swift */,
 				0437A2042582EA700068469B /* ExtensionComparator.swift */,
-				04C4187A2591354900B4B2A1 /* expandedCalifi.swift */,
+				0466FAEB25ED1864005C09FD /* ExtensionFirstFilter.swift */,
+				04C6441B2614E8FE006C5530 /* SlowRepeatAudio.swift */,
 				046D369625EEE505005F0DFE /* Animation.swift */,
 				048A81BB2597999C001D68AB /* ExtensionFunction.swift */,
-				0466FAEB25ED1864005C09FD /* ExtensionFirstFilter.swift */,
 				048A81C32597AA0E001D68AB /* Timers.swift */,
-				04BF284C25977B700061286E /* correctSound.mp3 */,
-				04BF284D25977B700061286E /* incorrecSound.mp3 */,
 				048A81D12597B878001D68AB /* BtnPressHold.swift */,
 			);
 			path = SpeechRecognizer;
@@ -558,7 +564,6 @@
 				04D5671825477C9D000F9588 /* Info.plist */,
 				045EEAE1255B0EBD004E9268 /* extDesing.swift */,
 				04D5670E25477C99000F9588 /* ViewController.swift */,
-				046242E425B35D3D00D3FF43 /* Numbers.swift */,
 				04BF285325977C740061286E /* UnicaViewController */,
 			);
 			path = pruebaclasess;
@@ -727,7 +732,7 @@
 				041EB9E1259AA4C30046D745 /* Six.wav in Resources */,
 				0469C27C259A8D3A00F27DD4 /* Vierzehn.wav in Resources */,
 				0469C288259A8D3A00F27DD4 /* Fünf.wav in Resources */,
-				04BF284E25977B700061286E /* correctSound.mp3 in Resources */,
+				0477A314260CFDD500AD4B45 /* incorrecSound.mp3 in Resources */,
 				0469C249259A70AE00F27DD4 /* Dezessete.wav in Resources */,
 				0469C24D259A70AE00F27DD4 /* Um.wav in Resources */,
 				0468AFE525E425DA00945858 /* Cero.wav in Resources */,
@@ -746,6 +751,7 @@
 				041EB9EA259AA4C30046D745 /* Eleven.wav in Resources */,
 				0469C20C259A707500F27DD4 /* Dix-Huit.wav in Resources */,
 				0469C21A259A707500F27DD4 /* Seize.wav in Resources */,
+				0477A315260CFDD500AD4B45 /* correctSound.mp3 in Resources */,
 				0469C218259A707500F27DD4 /* Un.wav in Resources */,
 				0468AFE125E425DA00945858 /* Seis.wav in Resources */,
 				0469C27F259A8D3A00F27DD4 /* Null.wav in Resources */,
@@ -787,7 +793,6 @@
 				041EB9F5259AA4C30046D745 /* Nineteen.wav in Resources */,
 				0469C207259A707500F27DD4 /* Sept.wav in Resources */,
 				041EB9ED259AA4C30046D745 /* Twelve.wav in Resources */,
-				04BF284F25977B700061286E /* incorrecSound.mp3 in Resources */,
 				0468AFD525E425DA00945858 /* Diecinueve.wav in Resources */,
 				0469C242259A70AE00F27DD4 /* Cinco .wav in Resources */,
 				0468AFDF25E425DA00945858 /* Diez.wav in Resources */,
@@ -825,13 +830,12 @@
 			files = (
 				04B32A29256310C200E6E72B /* extensionAudio.swift in Sources */,
 				04D5670F25477C99000F9588 /* ViewController.swift in Sources */,
+				04C6441C2614E8FE006C5530 /* SlowRepeatAudio.swift in Sources */,
 				04C41885259138E800B4B2A1 /* SpeechRecognizer.swift in Sources */,
 				0441196D2551EF3E00A7CEE4 /* UnicaViewController.swift in Sources */,
-				04C4187B2591354900B4B2A1 /* expandedCalifi.swift in Sources */,
 				048A81D22597B878001D68AB /* BtnPressHold.swift in Sources */,
 				045EEAE2255B0EBD004E9268 /* extDesing.swift in Sources */,
 				048A81BC2597999C001D68AB /* ExtensionFunction.swift in Sources */,
-				046242E525B35D3D00D3FF43 /* Numbers.swift in Sources */,
 				0466FAEC25ED1864005C09FD /* ExtensionFirstFilter.swift in Sources */,
 				048A81C42597AA0E001D68AB /* Timers.swift in Sources */,
 				04D5670B25477C99000F9588 /* AppDelegate.swift in Sources */,

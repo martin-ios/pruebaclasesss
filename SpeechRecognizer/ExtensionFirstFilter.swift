@@ -7,7 +7,10 @@
 
 import Foundation
 
+
 extension SpeechRecognizer {
+    
+    
     
     func firstFilter() {
        
@@ -15,7 +18,7 @@ extension SpeechRecognizer {
         switch self.words {
         case "10" :
             
-            if idiomaGSpeech == "Español" { self.onlyLeters = "DIEZ"}
+            if self.idiomaGSpeech == "Español" { self.onlyLeters = "DIEZ"}
             if idiomaGSpeech == "Ingles" { self.onlyLeters = "TEN" }
             if idiomaGSpeech == "Italiano" { self.onlyLeters = "DIECI"}
             if idiomaGSpeech == "Frances" { self.onlyLeters = "DIX" }
@@ -102,4 +105,4 @@ extension SpeechRecognizer {
         }
   }
 
-}
+} 

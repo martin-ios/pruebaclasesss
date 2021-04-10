@@ -7,8 +7,12 @@
 
 import Foundation
 
-extension SpeechRecognizer {
+class Timers : SpeechRecognizer {
+  
+}
 
+
+extension SpeechRecognizer {
     @objc func retardator() {
     beganFilterArray()
     comparator()
@@ -44,7 +48,7 @@ extension SpeechRecognizer {
 
      func correctWordTimer() {
     
-        _ = Timer.scheduledTimer(timeInterval: 0.6 , target: self, selector: #selector(correctInco), userInfo: nil, repeats: false)
+        _ = Timer.scheduledTimer(timeInterval: 0.7 , target: self, selector: #selector(correctInco), userInfo: nil, repeats: false)
 
 }
 
@@ -79,4 +83,5 @@ extension SpeechRecognizer {
          
          
      }
+    
 }

@@ -7,28 +7,31 @@
 
 import Foundation
 import UIKit
-extension SpeechRecognizer {
-  
 
+
+extension SpeechRecognizer {
+    
+    
     func beganFilterArray() {
         
+        
         firstFilter()
-    
         let srt = self.onlyLeters
         
-        self.newArray = srt.components(separatedBy:" ")
-        print("\(newArray)newa")
+        // Respues de SP en formato Array
+         answerSpeechArray = srt.components(separatedBy:" ")
+          print("\(answerSpeechArray) print answerSpeechArray")
        
+        // Array Numeros correctos
         let srt2 = self.elements
-        self.newArray2 = srt2.components(separatedBy:" ")
+         baseDataNumberArray = srt2.components(separatedBy:" ")
         
-     
-        for element in self.newArray2 {
-            for word in self.newArray {
+        for element in baseDataNumberArray {
+            for word in answerSpeechArray {
                 if element == word {
-                    self.filtered.append(word);
-                    
-                    self.filtered.removingDuplicate();                  print("\(self.filtered)if si")
+                    wordsFiltered.append(word);
+                   print("\(wordsFiltered) print wordsFiltered ")
+             //  let removeDuplicatedWord = self.filtered.removingDuplicate()
                 }
             }
         }
@@ -37,30 +40,35 @@ extension SpeechRecognizer {
     
     
     func comparator() {
-        let arrayZ = ""
+ 
+        self.concatenateWordsFiltered = self.wordsFiltered.concatenate()
         
-        guard onlyLeters != arrayZ else {
-             self.filtered = ["Error"]; print("\(filtered)");
-                silense()
-       return }
-  
-        self.convertedFiltered = self.filtered.concatenate()
-        self.lblSpeech.text = self.convertedFiltered
+        print("\(concatenateWordsFiltered) concatenate")
         
-        
-        if self.convertedFiltered == elements {
-            self.lblSpeech.text = self.convertedFiltered
-            self.lblSpeech.textColor = UIColor.gray
-            resetParola()
+        if self.concatenateWordsFiltered == self.elements
+            && self.concatenateWordsFiltered != ""  {
+            self.displaySpeechLbl.text = concatenateWordsFiltered
+            self.displaySpeechLbl.textColor = UIColor.gray
             correctWordTimer()
-            lblArraySpeech.text = aray[0]
+            print("correcto")
         } else {
-            self.lblSpeech.text = self.onlyLeters
-            self.lblSpeech.textColor = UIColor.gray
-            incorrectWordTimer()
-            self.lblArraySpeech.text = self.aray[0]
-            resetParola()
-            
+            if self.answerSpeechArray == [""] {
+                silence()
+             print("silencio")
+            }
+            else {
+                self.displaySpeechLbl.text = self.onlyLeters
+                self.displaySpeechLbl.textColor = UIColor.gray
+                incorrectWordTimer()
+      print("equivocado")
+          
+               // print("\(self.convertedFiltered) converted \(elements) elements")
+            }
         }
     }
+    
+    
+    
+    
+    
 }
