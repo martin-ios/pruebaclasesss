@@ -143,8 +143,7 @@ class SpeechRecognizer: UIViewController, SFSpeechRecognizerDelegate,UITextField
      print("\(message) message  ")
         
        self.words = message
-        // cambiar el codio de arriba, comprobar si con descripcion solo tira letras
-        // ver que hace la funcion TrimmingCharacteres
+        
 
        self.elements = self.aray[0].uppercased().trimmingCharacters(in: .whitespaces)
         print("\(String(describing: self.words)) words")

@@ -62,7 +62,7 @@ extension SpeechRecognizer {
                 incorrectWordTimer()
       print("equivocado")
           
-               // print("\(self.convertedFiltered) converted \(elements) elements")
+              
             }
         }
    }
