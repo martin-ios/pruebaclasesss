@@ -44,9 +44,10 @@ extension SpeechRecognizer {
         self.wordsFiltered.removeAll()
         print("\(wordsFiltered) print resetParola")
 
-       self.onlyLeters = ""
+       self.onlyLetters = ""
         self.words = ""
         self.concatenateWordsFiltered = ""
+    
     }
     
     func nextWord() {
@@ -68,7 +69,7 @@ extension SpeechRecognizer {
         self.viewCheckSpeech.backgroundColor = UIColor.white
         self.lblArraySpeech.text = aray[0]
         self.btnPressHSpeech.isHidden = true
-  //     timer6()
+ 
         
     }
     func sameWord() {

@@ -11,6 +11,8 @@ import AVFoundation
 
 
 extension SpeechRecognizer {
+  
+   // MARK: - SLOW NUMBER REPEAT FUNCTION
     
     func slowRepeatAudio()  {
         

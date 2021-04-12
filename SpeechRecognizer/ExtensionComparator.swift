@@ -7,22 +7,25 @@
 
 import Foundation
 import UIKit
+
 extension SpeechRecognizer {
   
 
     func beganFilterArray() {
         
         firstFilter()
-    
-        let srt = self.onlyLeters
         
+        let srt = self.onlyLetters
+        
+        // ANSWER SPEECHRECOGNIZER FORMAT ARRAY
         self.answerSpeechArray = srt.components(separatedBy:" ")
         print("\(answerSpeechArray)newa")
-       
+        
+        // CORRECT NUMBERS ARRAY
         let srt2 = self.elements
         self.baseDataNumberArray = srt2.components(separatedBy:" ")
         
-     
+        
         for element in self.baseDataNumberArray {
             for word in self.answerSpeechArray {
                 if element == word {
@@ -32,7 +35,7 @@ extension SpeechRecognizer {
                 }
             }
         }
- 
+        
     }
     
     
@@ -54,7 +57,7 @@ extension SpeechRecognizer {
              print("silencio")
             }
             else {
-                self.displaySpeechLbl.text = self.onlyLeters
+                self.displaySpeechLbl.text = self.onlyLetters
                 self.displaySpeechLbl.textColor = UIColor.gray
                 incorrectWordTimer()
       print("equivocado")
