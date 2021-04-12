@@ -10,7 +10,8 @@ import Foundation
 extension SpeechRecognizer {
     
     func firstFilter() {
-       
+   // This function solved the problem when Speech Recognizer return a value > than 10, the result is always a number, not a word (Ten)
+        
        guard self.words != nil  else {
             
             return
