@@ -11,7 +11,10 @@ extension SpeechRecognizer {
     
     func firstFilter() {
        
-       
+       guard self.words != nil  else {
+            
+            return
+        } 
         switch self.words {
         case "10" :
             
